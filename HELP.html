@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./resources/css/reset.css" type="text/css" rel="stylesheet" />
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <title>Help Me!</title>
+  </head>
+  <body>
+    <div class="site-container">
+      <header>
+        <nav>
+          <a href="#"><li>Home</li></a>
+          <a href="#basic-html"><li>Basic HTML</li></a>
+          <a href="#"><li>Basic CSS</li></a>
+          <a href="#"><li>Positioning</li></a>
+        </nav>
+      </header>
+
+      <div class="landing-area">
+        <div class="jumbotron">
+          <div class="jumbotron-content">
+            <h1>HTML and CSS Help Reference Sheet</h1>
+            <h2>Common Terms and Basic Guide</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="basic-html" id="basic-html">
+        <div class="section-title">
+          <span>Basic HTML</span>
+        </div>
+          <div class="htmls">
+            <div class="html">
+            <div class="html-title">
+              <<span>head</span>>
+            </div>
+            <div class="html-content">
+              <h2>
+                Page Data is covered in the HTML <<span>head</span>> tag. In text editors
+                like <strong>Atom,</strong> there is a built in "tab" function to
+                automatically add your basic "boilderplate" code by typing "html"
+                and hitting the tab key. The <<span>head</span>> tag stores the
+                <<span>meta</span>>, the <<span>link</span>> tags, and the
+                <<span>title</span>> tag.
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span>header</span>>
+            </div>
+            <div class="html-content">
+              <h2>
+                The <<span>header</span>> is at the top of a webpage. It is inside
+                of the <<span>body</span>> and typically is the parent element of
+                the <<span>nav</span>> element. The <<span>header</span>> is often
+                set to position: fixed in CSS. Using a reset.css is important
+                because the header will render and space slightly differently than
+                you intend as a developer without it.
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span>link</span>>
+            </div>
+            <div class="html-content">
+              <h2>
+                The <<span>link</span>> HTML tag is, again, nested in the <<span>header</span>>.
+                It has three sections with many argument choices. Syntax for the arguments
+                is: <<span>link</span> href="url" type="texttype" rel="argument" />.
+                <<span>link</span>> tags are used to link CSS sheets, online CDNs (ex. Bootstrap),
+                and external APIs (Like Google Fonts).
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span>nav</span>> and <<span>li</span>>
+            </div>
+            <div class="html-content">
+              <h2>
+                <<span>nav</span>> elements are usually nested in <<span>header</span>>
+                or <<span>footer</span>> elements, but can be anywhere on a page.
+                A <<span>nav</span>> <<span>li</span>> is usually wrapped in an
+                <<span>a</span>> (link) tag. Using CSS to transform the basic list
+                really turns a static <<span>nav</span>> list into a good looking
+                navigation menu bar. The bar at the top of the page is exactly that;
+                a fixed <<span>header</span>> with a <<span>nav</span>> styled
+                with CSS.
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span>ul</span>>, <<span>ol</span>>, and <<span>li</span>>
+            </div>
+            <div class="html-content">
+              <h2>
+                <<span>ul</span>> tags are <em>unordered</em> lists, with <<span>li</span>>
+                child elements. In other words, bullet lists. <br><br> <<span>ol</span>> tags are
+                <em>ordered</em> with <<span>li</span>> child elements. These are numbered. <br><br>
+                <<span>li</span>> elements are inside of other tags and are the individual
+                <em>list items.</em>
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span>h1</span>> thru <<span>h6</span>>
+            </div>
+            <div class="html-content">
+              <h2>
+                <<span>h1</span>> thru <<span>h6</span>> tags define headers (different
+                than the <<span>header</span>> tag). These tags usually do NOT render
+                when a reset.css is in place, so they are treated like a <<span>span</span>>
+                or <<span>div</span>> tag that you can just set font-size: value; in CSS.
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span>span</span>>
+            </div>
+            <div class="html-content">
+              <h2>
+                <<span>span</span>> elements are one-line versions of the <<span>div</span>>
+                grouping element. These elements don't alter content or size; they are
+                there to help you organize and place elements using CSS, CSS Grid, CSS Flexbox,
+                etc. They allow you to select text or words inbetween their opening
+                and closing lines and assign a class, ID, or property directly. Every tag
+                (<<span>tag</span>>) on this site that you can read is rendered
+                with a <<span>span</span>> element, like <<<span>span</span>>exampletag<<span>span</span>>>.
+                The extra <> on the end allows the browser to display the tag even though it
+                <em>really</em> wants to treat it as non-text code.
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span>div</span>>
+            </div>
+            <div class="html-content">
+              <h2>
+                <<span>div</span>> grouping elements are prehaps the most important
+                HTML organizational element. By using logic and writing code in a
+                readable, understandable way, web developers use <<span>div</span>>
+                tags to group other divs, create rows and columns, organize content,
+                style content, position elements, and basically lay out the page
+                however they see fit.
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span>p</span>>
+            </div>
+            <div class="html-content">
+              <h2>
+                <<span>p</span>> elements are just your ordinary paragraph, longer
+                text tags. They are usually nested in <<span>divs</span>>
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span></span>>
+            </div>
+            <div class="html-content">
+              <h2>
+
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span></span>>
+            </div>
+            <div class="html-content">
+              <h2>
+
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span></span>>
+            </div>
+            <div class="html-content">
+              <h2>
+
+              </h2>
+            </div>
+          </div>
+
+          <div class="html">
+            <div class="html-title">
+              <<span></span>>
+            </div>
+            <div class="html-content">
+              <h2>
+
+              </h2>
+            </div>
+          </div>
+
+
+    </div>

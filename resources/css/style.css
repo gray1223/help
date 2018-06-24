@@ -1,0 +1,124 @@
+html {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Nav */
+
+header {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  background-color: darkgray;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-decoration: none;
+  width: 7vw;
+  max-width: 10vw;
+  margin: auto 2vw;
+  font-size: 2.5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li:hover {
+  color: green;
+}
+
+/* Landing area */
+
+.landing-area {
+  background-image: url("../../resources/images/site.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 25vh;
+  width: 70vw;
+  margin-top: 25vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.jumbotron-content h1 {
+  color: white;
+  font-size: 7vh;
+}
+
+.jumbotron-content h2 {
+  color: white;
+  font-size: 4vh;
+  margin-top: 3vh;
+}
+
+/* Basic HTML */
+
+.basic-html {
+  display: flex;
+  margin-top: 5vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.htmls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.html {
+  width: 20vw;
+  padding: 2vh;
+  margin: 2vw 2vw;
+  height: 40vh;
+  background-color: darkgray;
+  text-align: left;
+}
+
+.html span {
+  color: #ca5677;
+}
+
+.html-title {
+  font-size: 4vh;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 7vh;
+  justify-content: center;
+}
+
+.html-content {
+  font-size: 2vh;
+  line-height: 1.2;
+}
+
+.html-content em {
+  font-style: italic;
+}
